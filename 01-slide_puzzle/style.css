@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.puzzle {
+  display: grid;
+  background-color: white;
+  color: ghostwhite;
+  gap: 2px;
+}
+
+.puzzle .block {
+  aspect-ratio: 1/1;
+  background-color: mediumseagreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.puzzle .block:empty {
+  background-color: salmon;
+}
